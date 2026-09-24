@@ -7,5 +7,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 ?>
 <h1>Welcome</h1>
+
 <p>Hello <?php echo $_SESSION['user_name']; ?></p>
+<a href="get.php">View student</a>
 <a href="logout.php">Logout</a>
